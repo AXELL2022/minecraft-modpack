@@ -1,0 +1,77 @@
+---- Minecraft Crash Report ----
+// There are four lights!
+
+Time: 2025-10-21 16:31:36
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Mod loading issue for: yungscavebiomes --
+Details:
+	Mod file: /home/axell/.local/share/PrismLauncher/instances/1.21.1/minecraft/mods/YungsCaveBiomes-1.21.1-NeoForge-3.1.1.jar
+	Failure message: Mod yungscavebiomes requires geckolib 4.7.6 or above
+		Currently, geckolib is not installed
+		
+	Mod version: 1.21.1-NeoForge-3.1.1
+	Mod issues URL: https://github.com/yungnickyoung/YUNGs-Cave-Biomes/issues
+	Exception message: <No associated exception found>
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Linux (amd64) version 6.17.4-3-cachyos
+	Java Version: 21.0.7, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 334813920 bytes (319 MiB) / 778043392 bytes (742 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 16
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 7 7840HS w/ Radeon 780M Graphics
+	Identifier: AuthenticAMD Family 25 Model 116 Stepping 1
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: AD107M [GeForce RTX 4060 Max-Q / Mobile]
+	Graphics card #0 vendor: NVIDIA Corporation (0x10de)
+	Graphics card #0 VRAM (MiB): 8224.00
+	Graphics card #0 deviceId: 0x28e0
+	Graphics card #0 versionInfo: unknown
+	Graphics card #1 name: Phoenix1
+	Graphics card #1 vendor: Advanced Micro Devices, Inc. [AMD/ATI] (0x1002)
+	Graphics card #1 VRAM (MiB): 258.00
+	Graphics card #1 deviceId: 0x15bf
+	Graphics card #1 versionInfo: unknown
+	Virtual memory max (MiB): 47080.91
+	Virtual memory used (MiB): 4587.71
+	Swap memory total (MiB): 31387.00
+	Swap memory used (MiB): 1.37
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 15686.60, total: 15693.91
+	Space in storage for workdir (MiB): available: 427076.06, total: 486336.31
+	JVM Flags: 2 total; -Xms512m -Xmx4096m
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeclient
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.42.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.42.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.42.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar connector_loader TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		client-1.21.1-20240808.144430-srg.jar             |Minecraft                     |minecraft                     |1.21.1              |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		neoforge-21.1.212-universal.jar                   |NeoForge                      |neoforge                      |21.1.212            |Manifest: NOSIGNATURE

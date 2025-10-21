@@ -1,0 +1,7 @@
+# Minecraft
+logs/
+crash-reports/
+saves/
+*.log
+*.tmp
+options.txt
