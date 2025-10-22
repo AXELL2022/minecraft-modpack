@@ -22,8 +22,8 @@ narrator:0
 particles:0
 reducedDebugInfo:false
 renderClouds:"true"
-renderDistance:32
-simulationDistance:32
+renderDistance:12
+simulationDistance:12
 screenEffectScale:1.0
 soundDevice:""
 autoJump:false
@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","mod_resources"]
-incompatibleResourcePacks:[]
+resourcePacks:["pointblank_resources","vanilla","fabric","mod_resources","file/Faithful 32x - 1.21.7.zip"]
+incompatibleResourcePacks:["file/Faithful 32x - 1.21.7.zip"]
 lastServer:
 lang:ru_ru
 chatVisibility:0
@@ -122,11 +122,32 @@ key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
+key_keybind.name.ESSENTIAL_FRIENDS:key.keyboard.h
+key_keybind.name.COSMETIC_STUDIO:key.keyboard.b
+key_keybind.name.SCREENSHOT_MANAGER:key.keyboard.i
+key_keybind.name.COSMETICS_VISIBILITY_TOGGLE:key.keyboard.unknown
+key_keybind.name.CHAT_PEEK:key.keyboard.z
+key_keybind.name.INVITE_FRIENDS:key.keyboard.unknown
+key_keybind.name.EMOTE_WHEEL:key.keyboard.r
+key_keybind.name.EMOTE_SLOT_1:key.keyboard.unknown
+key_keybind.name.EMOTE_SLOT_2:key.keyboard.unknown
+key_keybind.name.EMOTE_SLOT_3:key.keyboard.unknown
+key_keybind.name.EMOTE_SLOT_4:key.keyboard.unknown
+key_keybind.name.EMOTE_SLOT_5:key.keyboard.unknown
+key_keybind.name.EMOTE_SLOT_6:key.keyboard.unknown
+key_keybind.name.EMOTE_SLOT_7:key.keyboard.unknown
+key_keybind.name.EMOTE_SLOT_8:key.keyboard.unknown
+key_keybind.name.ZOOM:key.keyboard.c
 key_key.modernfix.config:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_iris.keybind.wireframe:key.keyboard.unknown
+key_key.pointblack.reload:key.keyboard.r
+key_key.pointblack.firemode:key.keyboard.b
+key_key.pointblack.inspect:key.keyboard.i
+key_key.pointblack.attachments:key.keyboard.y
+key_key.pointblack.scope_switch:key.keyboard.v
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
