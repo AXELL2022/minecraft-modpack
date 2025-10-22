@@ -1,0 +1,16 @@
+filename = 'Giantess Toki 3.0.0 beta 3.jar'
+name = 'Giantess Toki & more'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '0469f2da09abc1c91f3b7e74e29041d7d7aec1c0e64bffe165c22bf8ec1b3abbae79fceb50515f0060485bf32f0477a8a19f08126b428404a789f082f3e3e1a5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Hc74m2Yc/versions/Fsb43wEw/Giantess Toki 3.0.0 beta 3.jar'
+
+[update.modrinth]
+mod-id = 'Hc74m2Yc'
+version = 'Fsb43wEw'

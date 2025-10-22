@@ -1,0 +1,16 @@
+filename = 'bettercombat-neoforge-2.2.5+1.21.1.jar'
+name = 'Better Combat'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'fff1ee4a0b0d14e31d49966fcf8d3ba0caad6920209f1882882b063a87a1ab64649c383c7f713c341ec9990971ac8c0d9502b9d976df286b7360027bf54bc268'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/5sy6g3kz/versions/I4FXAMi1/bettercombat-neoforge-2.2.5%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = '5sy6g3kz'
+version = 'I4FXAMi1'
