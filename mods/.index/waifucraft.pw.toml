@@ -1,4 +1,4 @@
-filename = 'waifucraft_1.21.1_2.1.jar'
+filename = 'waifucraft_1.21.1_2.2.jar'
 name = 'Waifucraft'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'edc0180467a22bab63ab3575627e20908adf94c5'
+hash = 'dcfc2ddd77bb204db32118857578bdbcec73621d'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6724099
+file-id = 7139412
 project-id = 618506
